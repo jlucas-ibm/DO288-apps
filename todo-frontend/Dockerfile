@@ -1,9 +1,9 @@
 FROM registry.access.redhat.com/ubi8:8.0
 
-LABEL version="1.0"
-LABEL description="To Do List application front-end"
-LABEL creationDate="2017-12-25"
-LABEL updatedDate="2020-8-22"
+LABEL version="1.0" \
+ description="To Do List application front-end" \
+ creationDate="2017-12-25" \
+ updatedDate="2020-9-15"
 
 ENV BACKEND_HOST=localhost:8081
 
